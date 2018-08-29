@@ -6,6 +6,7 @@ import android.util.Log;
 
 import com.nuance.speechkit.Audio;
 import com.nuance.speechkit.Language;
+import com.nuance.speechkit.Voice;
 import com.nuance.speechkit.Recognition;
 import com.nuance.speechkit.RecognizedPhrase;
 import com.nuance.speechkit.Session;
@@ -56,6 +57,7 @@ public class SpeechKit extends CordovaPlugin {
             Transaction.Options options = new Transaction.Options();
             final String textToSpeak = args.getString(0);
             options.setLanguage(new Language(args.getString(1)));
+            options.setVoice(new Voice(args.getString(2)));
             Log.e(TAG, "Java: will speak: " + textToSpeak);
             Transaction transaction = session.speakString(textToSpeak, options, new Transaction.Listener() {
                 public void onAudio(Transaction transaction, Audio audio) {

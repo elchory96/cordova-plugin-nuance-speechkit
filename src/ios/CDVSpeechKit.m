@@ -30,6 +30,7 @@
     NSLog(@"CDVSpeechKit.startTTS: Entered method.");
     SKTransaction* transaction = [session speakString:[command.arguments objectAtIndex:0]
                                          withLanguage:[command.arguments objectAtIndex:1]
+                                         withVoice:[command.arguments objectAtIndex:2]
                                              delegate:self];
     NSLog(@"CDVSpeechKit.startTTS: Leaving method.");
 }

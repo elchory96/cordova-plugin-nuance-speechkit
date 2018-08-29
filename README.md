@@ -1,4 +1,4 @@
-# cordova-plugin-nuance-speechkit
+# cordova-plugin-simi-nuance-speechkit
 This is an implementation of [Nuance SpeechKit](https://developer.nuance.com) (v2.1+) SDK in Cordova (6.2+).
 
 ## Installation

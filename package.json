@@ -1,16 +1,16 @@
 {
-  "name": "cordova-plugin-nuance-speechkit",
+  "name": "cordova-plugin-simi-nuance-speechkit",
   "version": "1.0.14",
   "description": "Cordova Nuance SpeechKit Plugin",
   "cordova": {
-    "id": "cordova-plugin-nuance-speechkit",
+    "id": "cordova-plugin-simi-nuance-speechkit",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shmarkus/cordova-plugin-nuance-speechkit.git"
+    "url": "git+https://github.com/elchory96/cordova-plugin-simi-nuance-speechkit.git"
   },
   "keywords": [
     "cordova",
@@ -29,7 +29,7 @@
   "author": "Markus Karileet",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/Shmarkus/cordova-plugin-nuance-speechkit/issues"
+    "url": "https://github.com/elchory96/cordova-plugin-simi-nuance-speechkit/issues"
   },
-  "homepage": "https://github.com/Shmarkus/cordova-plugin-nuance-speechkit#readme"
+  "homepage": "https://github.com/elchory96/cordova-plugin-simi-nuance-speechkit#readme"
 }
